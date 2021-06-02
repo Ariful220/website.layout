@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    width:80%;
+    border: 1px; solid red;
+    margin:0 auto;
+}
+h2{
+    text-align:center;
+    color: red;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height:100px;
+}
+.logo,.navigation,.banner,.sidebar,.body,.footer{
+    background-color: #bebebe;
+    margin:30px o;
+}
+.logo,{
+    min-height: 50px;
+}
+.navigation h2{
+    min-height: 20px;
+    line-height:50px;
+}
+.banner{
+    min-height: 100px;
+}
+.main{
+    overflow: hidden;
+    
+}
+.sidebar{
+width: 25%;
+float: left;
+min-height: 400px;
+}
+.body{
+width:70%;
+min-height: 400px;
+float: right;
+}
+.footer h2{
+
+line-height: 50px;
+}
